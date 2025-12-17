@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OG | Premium Content Creator Brand</title>
+    <meta name="description" content="Official personal branding website for Nexus, a leading 3D content creator and influencer. Explore videos, services, and collaborations.">
+    <meta name="keywords" content="YouTuber, Influencer, 3D Animation, Content Creator, Personal Brand, Nexus">
+    <meta name="author" content="Nexus">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 3D Background Canvas -->
+    <canvas id="webgl-canvas"></canvas>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">OG<span class="dot">.</span></div>
+        <div class="nav-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#videos">Videos</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <h1 class="hero-title glitch" data-text="NEXT GEN CREATOR">NEXT GEN CREATOR</h1>
+            </div>
+            <p class="hero-subtitle">Crafting Digital Realities & Immersive Stories</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="counter" data-target="2500000">0</span>
+                    <span class="label">Subscribers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="counter" data-target="500000000">0</span>
+                    <span class="label">Views</span>
+                </div>
+            </div>
+            <a href="#videos" class="cta-btn">Watch Content <i class="fas fa-play-circle"></i></a>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to Explore</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Behind The <span class="highlight">Avatar</span></h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-wrapper tilt-card">
+                    <div class="about-image-inner">
+                        <!-- Placeholder for creator image -->
+                        <div class="img-placeholder"><i class="fas fa-user-astronaut"></i></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="lead">I'm a digital artist and storyteller pushing the boundaries of what's possible in new media.</p>
+                    <p>Starting from a small bedroom setup, I've grown a community of millions passionate about tech, gaming, and 3D design. My mission is to inspire the next generation of creators to build their own worlds.</p>
+                    <div class="achievements-list">
+                        <div class="achievement">
+                            <i class="fas fa-trophy"></i>
+                            <span>Creator of the Year 2024</span>
+                        </div>
+                        <div class="achievement">
+                            <i class="fas fa-star"></i>
+                            <span>Top 10 Tech Influencer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Gallery Section -->
+    <section id="videos" class="videos-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest <span class="highlight">Uploads</span></h2>
+            </div>
+            <div class="video-grid">
+                <!-- Video Card 1 -->
+                <div class="video-card tilt-card">
+                    <div class="thumbnail">
+                        <div class="overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>The Future of VR Gaming</h3>
+                        <p>Exploring the latest headsets and haptic tech.</p>
+                        <div class="meta">
+                            <span><i class="far fa-eye"></i> 1.2M</span>
+                            <span><i class="far fa-clock"></i> 2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video Card 2 -->
+                <div class="video-card tilt-card">
+                    <div class="thumbnail">
+                        <div class="overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>Building a $10k Setup</h3>
+                        <p>Complete studio tour and gear breakdown.</p>
+                        <div class="meta">
+                            <span><i class="far fa-eye"></i> 850K</span>
+                            <span><i class="far fa-clock"></i> 1 week ago</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Video Card 3 -->
+                <div class="video-card tilt-card">
+                    <div class="thumbnail">
+                        <div class="overlay">
+                            <i class="fas fa-play"></i>
+                        </div>
+                    </div>
+                    <div class="video-info">
+                        <h3>3D Modeling Tutorial</h3>
+                        <p>Blender for beginners: Zero to Hero.</p>
+                        <div class="meta">
+                            <span><i class="far fa-eye"></i> 2.5M</span>
+                            <span><i class="far fa-clock"></i> 2 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My <span class="highlight">Services</span></h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-ad"></i></div>
+                    <h3>Brand Integration</h3>
+                    <p>Seamless product placement and dedicated sponsorship segments that resonate with my audience.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-cube"></i></div>
+                    <h3>3D Commission</h3>
+                    <p>Custom 3D assets, intros, and visual effects for your own projects or brand identity.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon-box"><i class="fas fa-microphone-alt"></i></div>
+                    <h3>Speaking</h3>
+                    <p>Keynote speeches and panels on creator economy, digital art, and community building.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaborations & Testimonials -->
+    <section id="collab" class="collab-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted <span class="highlight">Partners</span></h2>
+            </div>
+            <div class="brand-slider">
+                <div class="brand-track">
+                    <!-- Duplicate items for infinite scroll effect -->
+                    <div class="brand-item"><i class="fab fa-google"></i></div>
+                    <div class="brand-item"><i class="fab fa-amazon"></i></div>
+                    <div class="brand-item"><i class="fab fa-twitch"></i></div>
+                    <div class="brand-item"><i class="fab fa-discord"></i></div>
+                    <div class="brand-item"><i class="fab fa-spotify"></i></div>
+                    <div class="brand-item"><i class="fab fa-samsung"></i></div>
+                    <div class="brand-item"><i class="fab fa-google"></i></div>
+                    <div class="brand-item"><i class="fab fa-amazon"></i></div>
+                    <div class="brand-item"><i class="fab fa-twitch"></i></div>
+                </div>
+            </div>
+
+            <div class="testimonials-wrapper">
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p>"Nexus brings an energy and quality to content creation that is simply unmatched in the industry."</p>
+                    <div class="author">
+                        <h4>Sarah Jenkins</h4>
+                        <span>Marketing Director, TechCorp</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p>"The ROI on our collaboration was 300%. The community trust is real."</p>
+                    <div class="author">
+                        <h4>Mike Ross</h4>
+                        <span>CEO, GameStudio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's <span class="highlight">Create</span></h2>
+                    <p>Have a project in mind? Reach out for collaborations, sponsorships, or just to say hi.</p>
+                    <ul class="contact-details">
+                        <li><i class="fas fa-envelope"></i> contact@og-creator.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Los Angeles, CA</li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" required placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" required placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                        <select>
+                            <option value="">Subject</option>
+                            <option value="collab">Brand Collaboration</option>
+                            <option value="service">Service Inquiry</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea required placeholder="Message" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 OG Creator Brand. With ❤️ By OG: Omkar Ghare All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
