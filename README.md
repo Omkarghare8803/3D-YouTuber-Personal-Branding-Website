@@ -19,7 +19,6 @@ A visually engaging **3D personal branding website for a YouTuber**, built using
 ![Preview](Images/preview.png)
 
 ## 🌐 Live Demo
-https://omkarghare8803.github.io/3D-Youtuber-Personal-Branding-Website/
-
+(https://omkarghare8803.github.io/3D-YouTuber-Personal-Branding-Website/)
 ## 🙌 Author
 **Omkar R. Ghare**
